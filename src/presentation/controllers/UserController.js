@@ -1,7 +1,7 @@
 class UserController {
 
     handle(req, res, next) {
-        res.send("Hello World!");
+        res.send("Cururu");
     }
 }
 
