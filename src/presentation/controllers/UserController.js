@@ -11,9 +11,9 @@ class UserController {
         } = req
         UserService.createUser(body)
 
-        /** res.send({idade:req.body.idade, name:req.body.name});
-     } */
+        res.send({name:req.body.name, email:req.body.email, cemail:req.body.cemail, cpf:req.body.cpf, celular:req.body.celular, nascimento:req.body.nascimento, whatsapp:req.body.whatsapp, emailsms:req.body.emailsms});
+     } 
     }
-}
+
 
 module.exports = new UserController();
