@@ -11,7 +11,7 @@ class AllUserController {
         } = req
         UserService.createUser(body)
 
-        res.send({name:req.body.name, email:req.body.email, cemail:req.body.cemail, cpf:req.body.cpf, celular:req.body.celular, nascimento:req.body.nascimento, whatsapp:req.body.whatsapp, emailsms:req.body.emailsms, pais:req.body.pais, cidade:req.body.cidade, cep:req.body.cep, endereco:req.body.endereco, numero:req.body.nnpmumero});
+        res.send({name:req.body.name, email:req.body.email, cemail:req.body.cemail, cpf:req.body.cpf, celular:req.body.celular, nascimento:req.body.nascimento, whatsapp:req.body.whatsapp, emailsms:req.body.emailsms, pais:req.body.pais, cidade:req.body.cidade, cep:req.body.cep, endereco:req.body.endereco, numero:req.body.numero});
     }
     }
 
