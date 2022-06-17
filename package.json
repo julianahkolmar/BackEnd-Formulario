@@ -8,6 +8,7 @@
   "author": "Junior Alves <junior.alves@warren.com.br>",
   "license": "MIT",
   "dependencies": {
+    "celebrate": "^15.0.1",
     "express": "^4.17.3",
     "nodemon": "^2.0.16",
     "nvs": "^0.5.0"
